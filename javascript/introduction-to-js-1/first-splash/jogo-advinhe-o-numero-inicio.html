@@ -11,6 +11,7 @@
         font-family: sans-serif;
       }
       body {
+        background-color: azure;
         width: 50%;
         max-width: 800px;
         min-width: 480px;
@@ -42,8 +43,18 @@
 </body>
 
 <script>
+
+  var numerorAleatorio = Math.floor(Math.random() * 100) + 1;
   
-  // Seu JavaScript vai aqui
+  var palpites = document.querySelector('.palpites');
+  var ultimoResultado = document.querySelector('.ultimoResultado');
+  var baixoOuAlto = document.querySelector('.baixoOuAlto');
   
+  var envioPalpite = document.querySelector('.envioPalpite');
+  var campoPalpite = document.querySelector('.campoPalpite');
+
+  var contagemPalpites = 1;
+  var botaoReinicio;
+
 </script>
 </html>
